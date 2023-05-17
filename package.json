@@ -1,5 +1,5 @@
 {
-  "name": "kolbe-components",
+  "name": "react-tailwind-starter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write **/*.{js,jsx,ts,tsx,json,css,scss,md}",
+    "lint": "eslint ./src/**/*.{js,jsx,ts,tsx,html} --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -41,8 +43,17 @@
     ]
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.21.8",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
     "autoprefixer": "^10.4.14",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
     "tailwindcss": "^3.3.2"
   }
 }

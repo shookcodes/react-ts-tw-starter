@@ -1,7 +1,7 @@
-import "./styles/index.css"
+import './styles/index.css';
 
 function App() {
-  return <div className="border-2 border-black ">Hello World</div>
+  return <div>Hello World</div>;
 }
 
-export default App
+export default App;
